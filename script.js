@@ -101,13 +101,13 @@ elemento.value+= valor;
 
             function checar(){
 
-
+            	cont++;
 
             	if(document.getElementById("voto").value == "25"){
 
             	 
             		document.getElementById("urna").src = "img/man.png";
-            		cont++;
+            		 
             		a++;
 
 
@@ -117,7 +117,7 @@ elemento.value+= valor;
             	 
             		document.getElementById("urna").src = "img/girl.png";
 
-            		cont++;
+            	 
             		b++;
             	}
             	if(cont>=2){
@@ -127,6 +127,7 @@ elemento.value+= valor;
             	a=0;
             	b=0;
             }
+
             }
 
             
